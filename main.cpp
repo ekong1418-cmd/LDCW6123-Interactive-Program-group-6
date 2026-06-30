@@ -40,7 +40,7 @@ Add if else vehicle selection
     cout << "Enter your choice: ";
     cin >> choice;
 
-
+Complete fare calculation function
     // Fare calculation using if/else
     if (choice == 1)
     {
