@@ -7,12 +7,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
-// Online C++ compiler to run C++ program online
-
-#include <iostream>
 using namespace std;
 
-Create Grab fare calculator
+//Create Grab fare calculator
 int main()
 {
     string name;
@@ -30,7 +27,7 @@ int main()
     cout << "Enter distance (km): ";
     cin >> distance;
 
-Add if else vehicle selection
+//Add if else vehicle selection
     // Vehicle selection
     cout << "\nSelect Grab service:" << endl;
     cout << "1. GrabBike" << endl;
@@ -40,7 +37,7 @@ Add if else vehicle selection
     cout << "Enter your choice: ";
     cin >> choice;
 
-Complete fare calculation function
+//Complete fare calculation function
     // Fare calculation using if/else
     if (choice == 1)
     {
